@@ -1,4 +1,4 @@
-import Carousel from "./Components/Carousel/Carousel"
+// import Carousel from "./Components/Carousel/Carousel"
 import Navbar from "./Components/Navbar/Navbar"
 import './App.css'
 import CardSlider from "./Components/CardSlider/CardSlider"
@@ -14,7 +14,7 @@ function App() {
     <>
       <Navbar />
       <TopHeader/>
-      <Carousel />
+      {/* <Carousel /> */}
       <CardSlider />
       <NewsSchedule />
       <Registration />
