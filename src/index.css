@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Monomaniac+One&family=Oswald:wght@400;700&family=Share+Tech&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -7,7 +9,7 @@
 }
 
 body {
-  background: radial-gradient(circle at top left, rgb(0 30 55), rgb(3 54 86));
+  background: linear-gradient( rgb(0 30 55), rgb(3 54 86));
 }
 #root::before {
   content: "";

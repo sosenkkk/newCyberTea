@@ -4,7 +4,8 @@
   align-items: center;
   gap: 1rem;
   padding: 0rem 2rem 4rem;
-  background: rgb(1, 37, 64);
+  background: rgb(1,37,64);
+background: linear-gradient(180deg, rgba(1,37,64,1) 40%, rgba(7,27,36,1) 100%);
 }
 
 .card_holder_team h2 {
@@ -36,6 +37,10 @@
   width: 100%;
   min-height: 70px;
   text-decoration: none;
+}
+
+.team_card:hover{
+    transform: scale(1.02);
 }
 
 .team_con {
