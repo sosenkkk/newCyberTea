@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import logo from "../../src/assets/iiits logo.png";
-import {Squash as Hamburger }from 'hamburger-react'
+import { Squash as Hamburger } from "hamburger-react";
 import "./Navbar.css";
 
 export default function Navbar() {
@@ -27,9 +27,10 @@ export default function Navbar() {
   window.addEventListener("scroll", () => {
     const y = window.scrollY;
     if (y > 10) {
-        document.getElementById("navbar").classList.add("navbar_on_move")
-    }if(y<10){
-        document.getElementById("navbar").classList.remove("navbar_on_move")
+      document.getElementById("navbar").classList.add("navbar_on_move");
+    }
+    if (y < 10) {
+      document.getElementById("navbar").classList.remove("navbar_on_move");
     }
   });
 
@@ -40,13 +41,9 @@ export default function Navbar() {
           <h1>
             <img src={logo} alt="iiits" /> CyberTEA
           </h1>
-          <span
-            id="hamburger"
-            onClick={NavToggle}
-          >
+          <span id="hamburger" onClick={NavToggle}>
             <Hamburger />
           </span>
-          
         </div>
         <ul id="nav-right" className={expand ? `expand` : ``}>
           <li
@@ -72,7 +69,10 @@ export default function Navbar() {
               expand ? NavToggle() : ``;
             }}
           >
-            <a href="/public/img/CyberTEA Brochure Print PDF.pdf" download="CyberTEA Brochure Print PDF.pdf" >
+            <a
+              href="/public/img/CyberTEA Brochure Print PDF.pdf"
+              download="CyberTEA Brochure Print PDF.pdf"
+            >
               Brochure
             </a>
           </li>
@@ -91,7 +91,7 @@ export default function Navbar() {
               expand ? NavToggle() : ``;
             }}
           >
-            <a href="#registration"   onClick={scrollToSection}>
+            <a href="#registration" onClick={scrollToSection}>
               Register
             </a>
           </li>

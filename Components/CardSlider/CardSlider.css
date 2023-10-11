@@ -1,20 +1,26 @@
 #speakers {
   margin: 0px auto;
   padding: 20px 0px;
-  background-color: rgb(16, 34, 60);
+  background-color: #1f4282;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.278);
   border-radius: 1rem;
   max-width: 1080px;
+  text-align: center;
 }
 
 #speaker_container {
-  background-color: white;
+  background-color: rgba(205, 230, 251, 1);
   width: 100%;
   padding: 3rem 0;
 }
 .heading {
   text-align: center;
-  font-size: 2.5rem;
+  font-family: "Oswald", sans-serif;
+  letter-spacing: 1.5;
+  display: inline;
+  font-size: 3rem;
+  color: #ffc436;
+  border-bottom: 1px solid #ffc436;
 }
 #speakers .heading {
   margin-bottom: 25px;

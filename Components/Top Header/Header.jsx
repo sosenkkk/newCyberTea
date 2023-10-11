@@ -15,7 +15,12 @@ export default function TopHeader() {
   return (
     <>
       <div className="header_container">
-        <h1>CyberTEA: <span>Cybersecurity Trends <br/> and Emerging Applications</span></h1>
+        <h1>
+          CyberTEA:{" "}
+          <span>
+            Cybersecurity Trends <br /> and Emerging Applications
+          </span>
+        </h1>
         <div className="div_holder">
           <h4 className="sub_header">{arraySub}</h4>
         </div>

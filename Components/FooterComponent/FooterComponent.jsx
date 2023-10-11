@@ -39,11 +39,11 @@ const FooterComponent = () => {
               Speakers
             </a>
           </li>
-          <li className="menu__item">
+          {/* <li className="menu__item">
             <a className="menu__link" href="#news" onClick={scrollToSection}>
               News
             </a>
-          </li>
+          </li> */}
           <li className="menu__item">
             <a
               className="menu__link"

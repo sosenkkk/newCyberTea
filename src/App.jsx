@@ -2,12 +2,13 @@ import "./App.css";
 import Carousel from "../Components/Carousel/Carousel";
 import Navbar from "../Components/Navbar/Navbar";
 import CardSlider from "../Components/CardSlider/CardSlider";
-import NewsSchedule from "../Components/NewsSchedule/NewsSchedule";
+import NewsSchedule from "../Components/ScheduleAndRegister/ScheduleAndRegister";
 import FooterComponent from "../Components/FooterComponent/FooterComponent";
 import Registration from "../Components/Registration/Registration";
 import TopHeader from "../Components/Top Header/Header";
 import About from "../Components/About/About";
 import Patron from "../Components/Patron/Patron";
+import TeamHolder from "../Components/Team/TeamHolder";
 
 function App() {
   return (
@@ -20,8 +21,8 @@ function App() {
       </div>
       <Patron />
       <CardSlider />
-
       <NewsSchedule />
+      <TeamHolder />
       <FooterComponent />
     </>
   );
