@@ -6,7 +6,7 @@ import Autoplay from 'embla-carousel-autoplay';
 
 import speakersData from './speakersData'; // Import your data here
 
-export const CardSlider = () => {
+export default function CardSlider  () {
   const [academicEmblaRef, academicEmblaApi] = useEmblaCarousel(
     { loop: true },
     [Autoplay({ speed: 2000 })]
