@@ -1,0 +1,41 @@
+#NewsSchedule {
+    display: flex;
+    margin: auto;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 90%;
+    margin-top: 10px;
+}
+
+#news,
+#schedule {
+    width: 45%;
+    margin: 50px auto 0px auto;
+    border: 3px solid rgb(0, 78, 137);
+    border-radius: 10px;
+    background-color: black;
+    color: azure;
+    min-width: 300px;
+    min-height: 300px;
+}
+
+.NewsSchedule-header {
+    text-align: center;
+    padding: 10px;
+    border-bottom: 2px solid rgb(0 50 87);
+}
+
+.NewsSchedule-body {
+    padding: 20px;
+}
+
+.NewsSchedule-body ul {
+    list-style: circle;
+    margin: 0px 0px 0px 10px;
+    padding: 0;
+}
+
+.NewsSchedule-body ul li {
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
