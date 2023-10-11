@@ -1,5 +1,5 @@
 import React from 'react';
-import qr from '../../assets/qr.jpeg'
+import qr from '../../src/assets/qr.jpeg'
 import './Registration.css';
 
 const Registration = () => {
