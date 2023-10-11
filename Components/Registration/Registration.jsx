@@ -15,14 +15,14 @@ const Registration = () => {
                     <h3 className="text-lg lg:text-xl text-yellow-400 yellowHeadingStyle">
                         Payment Procedure
                     </h3>
-                    <ol className="text-base lg:text-lg mt-2 list-decimal list-inside">
+                    <ul className="text-base lg:text-lg mt-2 list-decimal list-inside">
                         <li className="mb-2">
                             Pay the registration fee using the below payment methods and amount according to your category.
                         </li>
                         <li className="mb-2">
                             After payment, fill out the <a href="/register" target="_blank" rel="noreferrer" className="linkStyle">Link To The Form</a>.
                         </li>
-                    </ol>
+                    </ul>
                 </div>
                 <div className="mt-4 table-container">
                     <h3 className="text-lg lg:text-xl text-yellow-400 yellowHeadingStyle">
@@ -90,11 +90,11 @@ const Registration = () => {
                     </div>
                 </div>
                 <p className="text-center text-lg lg:text-2xl font-bold text-yellow-400 mt-4">
-                    After the payment, fill out the form to confirm your registration <a href="https://wadla.in/register"
+                    After the payment, fill out the form to confirm your registration <a href="https://forms.gle/To8gFQaw9cRxEi6z7"
                         target="_blank" rel="noreferrer" className="linkStyle">Link To The Form</a>.
                 </p>
                 <p className="mt-2 text-sm lg:text-base font-light text-yellow-400">
-                    For any queries, contact us at wadla@iiits.in
+                    For any queries, contact us at ____
                 </p>
             </div>
         </div>

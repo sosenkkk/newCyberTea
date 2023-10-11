@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import logo from "../../assets/iiits logo.png";
+import logo from "../../src/assets/iiits logo.png";
 import {Squash as Hamburger }from 'hamburger-react'
 import "./Navbar.css";
 
@@ -91,7 +91,7 @@ export default function Navbar() {
               expand ? NavToggle() : ``;
             }}
           >
-            <a href="https://forms.gle/To8gFQaw9cRxEi6z7" target="_blank" >
+            <a href="#registration"   onClick={scrollToSection}>
               Register
             </a>
           </li>

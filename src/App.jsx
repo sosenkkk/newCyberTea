@@ -1,11 +1,11 @@
-import Carousel from "./Components/Carousel/Carousel"
-import Navbar from "./Components/Navbar/Navbar"
 import './App.css'
-import CardSlider from "./Components/CardSlider/CardSlider"
-import NewsSchedule from "./Components/NewsSchedule/NewsSchedule"
-import FooterComponent from "./Components/FooterComponent/FooterComponent"
-import Registration from "./Components/Registration/Registration"
-import TopHeader from "./Components/Top Header/Header"
+import Carousel from "../Components/Carousel/Carousel"
+import Navbar from "../Components/Navbar/Navbar"
+// import CardSlider from "./Components/CardSlider/CardSlider"
+// import NewsSchedule from "./Components/NewsSchedule/NewsSchedule"
+// import FooterComponent from "./Components/FooterComponent/FooterComponent"
+// import Registration from "./Components/Registration/Registration"
+import TopHeader from "../Components/Top Header/Header"
 
 function App() {
 
@@ -14,10 +14,10 @@ function App() {
       <Navbar />
       <TopHeader/>
       <Carousel />
-      <CardSlider />
+      {/* <CardSlider />
       <NewsSchedule />
       <Registration />
-      <FooterComponent />
+      <FooterComponent /> */}
     </>
   )
 }

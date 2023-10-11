@@ -9,12 +9,12 @@ import speakersData from './speakersData'; // Import your data here
 export default function CardSlider  () {
   const [academicEmblaRef, academicEmblaApi] = useEmblaCarousel(
     { loop: true },
-    [Autoplay({ speed: 2000 })]
+    [Autoplay({ speed: 2500 })]
   );
 
   const [industryEmblaRef, industryEmblaApi] = useEmblaCarousel(
     { loop: true },
-    [Autoplay({ speed: 2000 })]
+    [Autoplay({ speed: 4000 })]
   );
 
   useEffect(() => {
