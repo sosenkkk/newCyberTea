@@ -1,0 +1,9 @@
+.about_container {
+  background: rgb(2, 39, 67);
+  background: linear-gradient(
+    180deg,
+    rgba(2, 39, 67, 1) 11%,
+    rgba(255, 255, 255, 1) 100%
+  );
+  padding: 3rem 0.5rem;
+}

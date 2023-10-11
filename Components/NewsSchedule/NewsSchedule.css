@@ -1,41 +1,46 @@
 #NewsSchedule {
-    display: flex;
-    margin: auto;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    width: 90%;
-    margin-top: 10px;
+  display: flex;
+  margin: auto;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 100%;
+  background: rgb(2, 39, 67);
+  background: linear-gradient(
+    0deg,
+    rgba(2, 39, 67, 1) 2%,
+    rgba(255, 255, 255, 1) 100%
+  );
 }
 
 #news,
 #schedule {
-    width: 45%;
-    margin: 50px auto 0px auto;
-    border: 3px solid rgb(0, 78, 137);
-    border-radius: 10px;
-    background-color: black;
-    color: azure;
-    min-width: 300px;
-    min-height: 300px;
+  width: 45%;
+  margin: 50px auto 0px auto;
+  border: 3px solid rgb(0, 78, 137);
+  border-radius: 10px;
+  background-color: black;
+  color: azure;
+  min-width: 300px;
+  min-height: 300px;
 }
 
 .NewsSchedule-header {
-    text-align: center;
-    padding: 10px;
-    border-bottom: 2px solid rgb(0 50 87);
+  text-align: center;
+  padding: 10px;
+  border-bottom: 2px solid rgb(0 50 87);
 }
 
 .NewsSchedule-body {
-    padding: 20px;
+  padding: 20px;
 }
 
 .NewsSchedule-body ul {
-    list-style: circle;
-    margin: 0px 0px 0px 10px;
-    padding: 0;
+  list-style: circle;
+  margin: 0px 0px 0px 10px;
+  padding: 0;
 }
 
 .NewsSchedule-body ul li {
-    font-size: 1.2rem;
-    margin: 10px 0;
+  font-size: 1.2rem;
+  margin: 10px 0;
 }

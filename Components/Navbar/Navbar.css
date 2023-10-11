@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Oswald:wght@400;700&family=Share+Tech&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=Oswald:wght@400;700&family=Share+Tech&display=swap");
 nav {
   position: fixed;
   top: 0px;
@@ -11,7 +11,6 @@ nav {
   padding: 15px 40px;
   color: azure;
   height: 5rem;
-  /* transition: top 0.3s ease-in; */
   transition: 250ms;
 }
 
@@ -22,7 +21,8 @@ nav {
 }
 nav h1 {
   font-size: 30px;
-  font-family: 'Share Tech', sans-serif;
+  font-family: "Monomaniac One", sans-serif;
+  font-weight: 300;
   display: flex;
   align-items: center;
   justify-content: space-between;

@@ -1,7 +1,7 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
-import App from './App.jsx'
-import './index.css'
+import React from "react";
+import ReactDOM from "react-dom/client";
+import App from "./App.jsx";
+import "./index.css";
 import * as THREE from "three";
 import { OrbitControls } from "three/addons/controls/OrbitControls.js";
 
@@ -321,7 +321,6 @@ const render = () => {
   materials.forEach((el) => {
     el.uniforms.u_time.value += twinkleTime;
   });
-
   controls.update();
   renderer.render(scene, camera);
   requestAnimationFrame(render.bind(this));
@@ -329,8 +328,8 @@ const render = () => {
 
 setScene();
 
-ReactDOM.createRoot(document.getElementById('root')).render(
+ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <App />
-  </React.StrictMode>,
-)
+  </React.StrictMode>
+);

@@ -1,41 +1,46 @@
 #speakers {
-    margin: 50px auto;
-    border-top: 1px solid #3b2e70;
-    border-bottom: 1px solid #3b2e70;
-    padding: 20px 0px;
-    background-color: rgb(16, 34, 60);
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.278);
-    max-width: 1080px;
+  margin: 0px auto;
+  padding: 20px 0px;
+  background-color: rgb(16, 34, 60);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.278);
+  border-radius: 1rem;
+  max-width: 1080px;
 }
-.heading{
-    text-align: center;
-    font-size: 2.5rem;
+
+#speaker_container {
+  background-color: white;
+  width: 100%;
+  padding: 3rem 0;
+}
+.heading {
+  text-align: center;
+  font-size: 2.5rem;
 }
 #speakers .heading {
-    margin-bottom: 25px;
+  margin-bottom: 25px;
 }
 
 .embla {
-    overflow: hidden;
-    display: flex;
+  overflow: hidden;
+  display: flex;
 }
 
 .embla__container {
-    display: flex;
+  display: flex;
 }
 
 .embla__slide {
-    flex: 0 0 9%;
-    min-width: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  flex: 0 0 9%;
+  min-width: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .academic .embla__slide {
-    flex: 0 0 25%;
+  flex: 0 0 25%;
 }
 
 .industry .embla__slide {
-    flex: 0 0 15%;
+  flex: 0 0 15%;
 }
