@@ -1,10 +1,10 @@
 #speakers {
     margin: 50px auto;
-    border-top: 1px solid #3b2e70;
-    border-bottom: 1px solid #3b2e70;
+    /* border-top: 1px solid #3b2e70;
+    border-bottom: 1px solid #3b2e70; */
     padding: 20px 0px;
-    background-color: rgb(16, 34, 60);
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.278);
+    /* background-color: rgb(16, 34, 60); */
+    /* box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.278); */
 }
 
 #speakers .heading {

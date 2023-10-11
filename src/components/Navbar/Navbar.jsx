@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import logo from "../../assets/iiits logo.png";
+import {Squash as Hamburger }from 'hamburger-react'
 import "./Navbar.css";
 
 export default function Navbar() {
@@ -41,11 +42,11 @@ export default function Navbar() {
           </h1>
           <span
             id="hamburger"
-            className={`material-symbols-outlined ${expand ? `expand` : ``}`}
             onClick={NavToggle}
           >
-            menu
+            <Hamburger />
           </span>
+          
         </div>
         <ul id="nav-right" className={expand ? `expand` : ``}>
           <li
@@ -71,8 +72,8 @@ export default function Navbar() {
               expand ? NavToggle() : ``;
             }}
           >
-            <a href="#news" onClick={scrollToSection}>
-              News
+            <a href="/public/img/CyberTEA Brochure Print PDF.pdf" download="CyberTEA Brochure Print PDF.pdf" >
+              Brochure
             </a>
           </li>
           <li
@@ -90,7 +91,7 @@ export default function Navbar() {
               expand ? NavToggle() : ``;
             }}
           >
-            <a href="https://forms.gle/To8gFQaw9cRxEi6z7" target="_blank">
+            <a href="https://forms.gle/To8gFQaw9cRxEi6z7" target="_blank" >
               Register
             </a>
           </li>

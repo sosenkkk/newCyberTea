@@ -29,7 +29,7 @@ const Carousel = () => {
                     <img src={banner} alt="Slide 3" className='carousel-image' />
                 </div>
             </Slider>
-        </div>
+         </div>
     );
 };
 

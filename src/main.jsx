@@ -253,7 +253,7 @@ const resize = () => {
   };
 
   if (window.innerWidth > 700) camera.position.z = 100;
-  else camera.position.z = 140;
+  else camera.position.z = 200;
 
   camera.aspect = sizes.width / sizes.height;
   camera.updateProjectionMatrix();
