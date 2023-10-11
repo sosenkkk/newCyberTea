@@ -1,7 +1,7 @@
 #NewsSchedule {
   display: flex;
   margin: auto;
-  justify-content: space-around;
+  justify-content: space-between;
   flex-wrap: wrap;
   width: 100%;
   background: rgb(2, 39, 67);
@@ -10,24 +10,26 @@
     rgba(2, 39, 67, 1) 2%,
     rgba(255, 255, 255, 1) 100%
   );
+  padding-bottom: 3rem;
 }
 
-#news,
-#schedule {
-  width: 45%;
+#news,#schedule {
   margin: 50px auto 0px auto;
   border: 3px solid rgb(0, 78, 137);
   border-radius: 10px;
-  background-color: black;
+  background-color:  rgb(2, 39, 67);
   color: azure;
   min-width: 300px;
-  min-height: 300px;
+
+}
+#schedule{
+  width: 40%;
+
 }
 
 .NewsSchedule-header {
   text-align: center;
   padding: 10px;
-  border-bottom: 2px solid rgb(0 50 87);
 }
 
 .NewsSchedule-body {
@@ -43,4 +45,14 @@
 .NewsSchedule-body ul li {
   font-size: 1.2rem;
   margin: 10px 0;
+}
+@media screen and (max-width: 1368px) {
+  #NewsSchedule{
+    flex-direction: column;
+  }
+  #news,#schedule{
+    min-width: none;
+    max-width: 700px;
+    width: 100%;
+  }
 }

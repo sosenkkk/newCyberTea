@@ -6,16 +6,12 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    border-top: 1px solid #3b2e70;
-    border-bottom: 1px solid #3b2e70;
-    padding: 20px 0px;
     background-color: rgb(16, 34, 60);
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.278);
-    text-align: center;
+    padding: 1rem 2rem;
 }
 
 .tableCellStyle {
-    background-color: #FFCD4B;
+    background-color: rgb(204, 151, 16);
 }
 
 .table-responsive {
@@ -32,19 +28,26 @@
 }
 
 .yellowHeadingStyle {
-    margin: 20px 0px 10px 0px;
     color: #FFCD4B;
+    margin-top: 1rem;
+    text-align: center;
 }
+.qr_scanner{
+   width: 100%;
+   display: block;
+   text-align: center;
+}
+
 
 .list-inside{
-    text-align: left;
+    margin-left: 1rem;
 }
-
 .linkStyle {
     color: #FE7BE5;
 }
 
 @media screen and (max-width: 768px) {
+    
     .bodyStyle {
         padding: 20px;
     }
@@ -76,5 +79,14 @@
     td {
         padding: 8px;
         text-align: left;
+    }
+}
+
+@media screen and (max-width: 458px) {
+    .headingStyle{
+        font-size: 2rem;
+    }
+    #registration{
+        padding: 1rem 0.3rem;
     }
 }

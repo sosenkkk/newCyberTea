@@ -5,7 +5,6 @@ import Registration from '../Registration/Registration';
 const NewsSchedule = () => {
     return (
         <div id="NewsSchedule">
-           
             <div id="schedule">
                 <div className="NewsSchedule-header">
                     <h1>Schedule</h1>
