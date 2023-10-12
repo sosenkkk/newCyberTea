@@ -53,3 +53,14 @@ html {
   position: absolute;
   top: 60vh;
 }
+
+@media screen and (max-width: 680px) {
+  #small_bg_container{
+    background-image: url("/img/earthSmall.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  #container_of_top{
+    display: none;
+  }
+}
