@@ -15,6 +15,9 @@ function App() {
     <>
       <Navbar />
       <TopHeader />
+      <div id="pot">
+        <h1> Last date for registration is 20th November 2023.</h1>
+      </div>
       <Carousel />
       <div className="about_container">
         <About />

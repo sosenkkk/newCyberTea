@@ -19,51 +19,7 @@ const FooterComponent = () => {
   return (
     <>
       <footer className="footer">
-        <ul className="menu">
-          <li className="menu__item">
-            <a className="menu__link" href="#">
-              Home
-            </a>
-          </li>
-          <li className="menu__item">
-            <a className="menu__link" href="#about" onClick={scrollToSection}>
-              About
-            </a>
-          </li>
-          <li className="menu__item">
-            <a
-              className="menu__link"
-              href="#speakers"
-              onClick={scrollToSection}
-            >
-              Speakers
-            </a>
-          </li>
-          {/* <li className="menu__item">
-            <a className="menu__link" href="#news" onClick={scrollToSection}>
-              News
-            </a>
-          </li> */}
-          <li className="menu__item">
-            <a
-              className="menu__link"
-              href="#schedule"
-              onClick={scrollToSection}
-            >
-              Schedule
-            </a>
-          </li>
-          <li className="menu__item">
-            <a
-              className="menu__link"
-              href="#registration"
-              onClick={scrollToSection}
-            >
-              Register
-            </a>
-          </li>
-        </ul>
-        <p>&copy;2024 CyberTEA | All Rights Reserved</p>
+        <p>&copy;2024 <a href="#">CyberTEA</a> | All Rights Reserved</p>
       </footer>
     </>
   );

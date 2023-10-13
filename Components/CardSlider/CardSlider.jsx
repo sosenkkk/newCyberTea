@@ -4,18 +4,17 @@ import "./CardSlider.css";
 import Card from "./Card/Card";
 import Autoplay from "embla-carousel-autoplay";
 
-import speakersData from "./speakersData"; // Import your data here
+import speakersData from "./speakersData";
 
 export default function CardSlider() {
   const [academicEmblaRef, academicEmblaApi] = useEmblaCarousel(
-    { loop: true,
-    dragFree:true },
-    [Autoplay({ speed: 2500 })]
+    { loop: true },
+    [Autoplay({ speed: 2500, stopOnMouseEnter: true, stopOnInteraction: false, })]
   );
 
   const [industryEmblaRef, industryEmblaApi] = useEmblaCarousel(
-    { loop: true , dragFree:true},
-    [Autoplay({ speed: 4000 })]
+    { loop: true },
+    [Autoplay({ speed: 4000, stopOnMouseEnter: true, stopOnInteraction: false, })]
   );
 
   useEffect(() => {
