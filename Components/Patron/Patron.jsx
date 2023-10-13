@@ -8,8 +8,8 @@ export default function Patron() {
         <h2>Chief Patron</h2>
         <div className="workshop_con">
           <PatronCard
-            name="Prof.D.V.L.N. Somayajulu"
-            img="/img/somayajulu.png"
+            name="Prof. D.V.L.N. Somayajulu"
+            img="/img/director.png"
             link="https://www.iiits.ac.in/home/administration/director/"
             title="Director, IIIT Sri City, Chittoor"
           />
@@ -17,16 +17,16 @@ export default function Patron() {
         <h2>Workshop Conveners</h2>
         <div className="workshop_con">
           <PatronCard
+            name="Dr. Neha Agrawal"
+            img="/img/neha_maam.jpg"
+            link="https://www.linkedin.com/in/dr-neha-agrawal-0a32776b/"
+            title="Assistant Professor, IIIT Sri City"
+          />
+          <PatronCard
             link="https://www.linkedin.com/in/nikhil-tripathi/"
             name="Nikhil Tripathi"
             title="Assistant Professor, IIIT Sri City"
             img="/img/1659677963779.jpeg"
-          />
-          <PatronCard
-            name="Dr. Neha Agrawal"
-            img="/img/1619627502520.jpeg"
-            link="https://www.linkedin.com/in/dr-neha-agrawal-0a32776b/"
-            title="Assistant Professor, IIIT Sri City"
           />
         </div>
       </div>

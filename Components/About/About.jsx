@@ -4,7 +4,7 @@ export default function About() {
   return (
     <>
       <div id="about">
-        <h2>About the workshop</h2>
+        <h2>About the Workshop</h2>
         <p>
           In today's digitally connected world, cybersecurity has become a
           paramount concern. As technology evolves, so do the threats that

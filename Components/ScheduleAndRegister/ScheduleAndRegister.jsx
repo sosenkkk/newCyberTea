@@ -11,7 +11,7 @@ const NewsSchedule = () => {
         </div>
         <div className="NewsSchedule-body">
           <ul>
-            <li>Yet to be decided</li>
+            <li>Coming soon...</li>
           </ul>
         </div>
       </div>

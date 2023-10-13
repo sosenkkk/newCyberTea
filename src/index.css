@@ -54,7 +54,7 @@ html {
   top: 60vh;
 }
 
-@media screen and (max-width: 780px) {
+@media screen and (max-width: 768px) {
   #small_bg_container{
     background-image: url("/img/earthSmall.png");
     background-repeat: no-repeat;

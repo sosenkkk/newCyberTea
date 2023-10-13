@@ -5,7 +5,7 @@ export default function TeamHolder() {
   return (
     <>
       <div className="card_holder_team">
-        <h2 className="contributors">Contributors</h2>
+        <h2 className="contributors">Student Coordinators</h2>
         <h2 style={{ marginTop: "5px" }}>Lead</h2>
         <div className="team_con">
           <TeamCard

@@ -20,13 +20,13 @@ const Carousel = () => {
     <div className="carousel-container">
       <Slider {...settings} className="carousel">
         <div>
-          <img src={banner} alt="Slide 1" className="carousel-image" />
+          <img src="/img/CyberTEA Banner.png" alt="Slide 1" className="carousel-image" />
         </div>
         <div>
-          <img src={banner} alt="Slide 2" className="carousel-image" />
+          <img src="/img/CyberTEA Banner.png" alt="Slide 2" className="carousel-image" />
         </div>
         <div>
-          <img src={banner} alt="Slide 3" className="carousel-image" />
+          <img src="/img/CyberTEA Banner.png" alt="Slide 3" className="carousel-image" />
         </div>
       </Slider>
     </div>
