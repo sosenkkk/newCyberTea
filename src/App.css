@@ -8,25 +8,32 @@
   padding: 4rem 0.5rem 2.5rem;
 }
 
-#pot {
-  bottom: 5%;
-  display: inline;
-  min-width: 400px;
-  position: absolute;
-  -webkit-animation: linear infinite;
-  -webkit-animation-name: run;
-  -webkit-animation-duration: 15s;
-}
-#pot h1{
-  font-size: 1rem;
-}
-@-webkit-keyframes run {
+
+
+@keyframes scrollText {
   0% {
     transform: translateX(100%);
-    left: 100%;
   }
   100% {
     transform: translateX(-100%);
-    left: 0;
   }
+}
+
+.scrolling-text {
+  animation: 22s linear 0s infinite normal none running scrollText;
+  white-space: nowrap;
+  overflow: hidden;
+  position: relative;
+  bottom: 3rem;
+  width: 100%;
+}
+.scroll_text_con{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.4rem;
+}
+.scrolling-text h1{
+  font-size: 1rem;
+  
 }
