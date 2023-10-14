@@ -20,7 +20,7 @@
 }
 
 .scrolling-text {
-  animation: 22s linear 0s infinite normal none running scrollText;
+  animation: 30s linear 0s infinite normal none running scrollText;
   white-space: nowrap;
   overflow: hidden;
   position: relative;
@@ -35,5 +35,13 @@
 }
 .scrolling-text h1{
   font-size: 1rem;
+  
+}
+
+@media screen and (max-width:400px) {
+  .scrolling-text h1{
+    font-size: 0.7rem;
+    
+  }
   
 }

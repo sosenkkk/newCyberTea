@@ -8,11 +8,13 @@
   text-align: center;
 }
 
+
 #speaker_container {
-  background-color: rgba(205, 230, 251, 1);
   width: 100%;
   padding: 3rem 0;
+  background-color: rgb(205, 230, 251);
 }
+
 .heading {
   text-align: center;
   font-family: "Oswald", sans-serif;
@@ -22,31 +24,7 @@
   color: #ffc436;
   border-bottom: 1px solid #ffc436;
 }
+
 #speakers .heading {
   margin-bottom: 25px;
-}
-
-.embla {
-  overflow: hidden;
-  display: flex;
-}
-
-.embla__container {
-  display: flex;
-}
-
-.embla__slide {
-  flex: 0 0 9%;
-  min-width: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.academic .embla__slide {
-  flex: 0 0 25%;
-}
-
-.industry .embla__slide {
-  flex: 0 0 15%;
 }

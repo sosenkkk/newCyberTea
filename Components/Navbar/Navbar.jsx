@@ -42,7 +42,7 @@ export default function Navbar() {
             <img src={logo} alt="iiits" /> CyberTEA
           </h1>
           <span id="hamburger" onClick={NavToggle}>
-            <Hamburger />
+            <Hamburger toggled={expand} />
           </span>
         </div>
         <ul id="nav-right" className={expand ? `expand` : ``}>
@@ -70,7 +70,7 @@ export default function Navbar() {
             }}
           >
             <a
-              href="/public/img/CyberTEA Brochure Print PDF.pdf"
+              href="/img/CyberTEA Brochure Print PDF.pdf"
               download="CyberTEA Brochure Print PDF.pdf"
             >
               Brochure
